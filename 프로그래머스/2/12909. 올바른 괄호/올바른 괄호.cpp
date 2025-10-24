@@ -9,11 +9,11 @@ bool solution(string s)
 	 {
 		if (c == '(')	
 		{
-			++balance;
+			balance++;
 		} 
 		else if (c == ')') 
 		{
-			--balance;
+			balance--;
 			if (balance < 0) 
 			{
 				return false;
